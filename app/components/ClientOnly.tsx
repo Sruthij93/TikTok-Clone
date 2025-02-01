@@ -1,5 +1,6 @@
-// wrapper component- use to wrap around other things to avoid hydration mismatch
-// certain sections of the app are loaded on the front end and not server side
+// Wrapper component: Use to wrap around other things to avoid hydration mismatch.
+// Certain sections of the app are loaded on the front end and not server side.
+
 "use client";
 
 import React, { useState, useEffect } from "react";
